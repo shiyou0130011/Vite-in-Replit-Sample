@@ -4,13 +4,13 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev:development": "vite --mode dev",
-		"dev:production": "vite --mode product",
+		"dev:development": "vite --mode development",
+		"dev:production": "vite --mode production",
 		
-		"dev:replit": "vite --mode dev --config vite.config.replit.js",
+		"dev:replit": "vite --mode development --config vite.config.replit.js",
 
-		"build:development": "vite build --mode dev",
-		"build:production": "vite build --mode product",
+		"build:development": "vite build --mode development",
+		"build:production": "vite build --mode production",
 		
 		"preview": "vite preview"
 	},
