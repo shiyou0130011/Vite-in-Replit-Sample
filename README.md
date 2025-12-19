@@ -12,3 +12,40 @@
 在本地開發時，使用 Vite 預設設定（使用 `localhost:5173` 預覽）；在 Replit 部署 / 預覽，則是套用 Replit 需要的 server / HMR 設定
 
 
+## 預覽
+
+### 本地預覽
+
+這是有分正式/測試環境的範例專案
+
+如果是正式環境則
+
+```shell
+$ npm run dev:production
+```
+如果是測試環境則
+
+```bash
+$ npm run dev:development
+```
+
+### Replit
+
+Replit 目前僅寫了預覽測試環境的 script：
+
+```bash
+$ npm run dev:replit
+```
+
+## 編譯成 HTML + CSS + JS
+
+如果是正式環境則
+
+```shell
+$ npm run build:production
+```
+如果是測試環境則
+
+```bash
+$ npm run build:development
+```
